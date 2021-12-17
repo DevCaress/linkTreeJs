@@ -9,6 +9,10 @@ const createMain = () => {
 const createBtns = () => {
     const btns = [
         {
+            url: 'https://talently.tech/ref/CQ9ON4',
+            txt: 'Consigue trabajo de forma remota'
+        },
+        {
             url: 'https://nogaradevcode.com/',
             txt: 'Academia de programación'
         },
@@ -17,9 +21,10 @@ const createBtns = () => {
             txt: 'Curso Desarrollo Web desde cero Youtube'
         },
         {
-            url: 'https://talently.tech/ref/CQ9ON4',
-            txt: 'Consigue trabajo de forma remota'
+            url: 'https://nogaradevcode.com/',
+            txt: 'Mi blog de programación'
         },
+        
     
     ];
     const container = document.getElementById('links');
@@ -52,9 +57,9 @@ const createSn = () => {
 
     const icons = [
         {src: 'face', url: 'https://facebook.com/devcaress'},
-        {src: 'insta', url: 'instagram.com/devcaress/'},
+        {src: 'insta', url: 'https://instagram.com/devcaress/'},
         {src: 'yt', url: 'https://www.youtube.com/channel/UCX1BEJAE6Mx9Tz6ty28oJWQ'},
-        {src: 'linkedin', url: 'linkedin.com/in/daniel-enriquez-lucas/'},
+        {src: 'linkedin', url: 'https://linkedin.com/in/daniel-enriquez-lucas/'},
         {src: 'twitter', url: 'https://twitter.com/DevCaress'},
         {src: 'tiktok', url: 'https://www.tiktok.com/@DevCaress/'},
         {src: 'telegram', url: 'https://t.me/NogaraDevCode'},
