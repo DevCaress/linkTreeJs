@@ -8,18 +8,39 @@ const createMain = () => {
 
 const createBtns = () => {
     const btns = [
+        /* {
+            url: 'https://wa.me/message/FZG3NUENDTJVO1',
+            txt: '💰💰Preventa de cursos💰💰'
+        }, */
         {
-            url: 'https://talently.tech/ref/CQ9ON4',
-            txt: 'Consigue trabajo de forma remota'
+            url: 'https://nogara.dev/courses',
+            txt: '💻💻Certificación de HTML y CSS GRATIS💻💻'
         },
         {
-            url: 'https://nogaradevcode.com/',
-            txt: 'Academia de programación'
+            url: 'https://nogara.dev/',
+            txt: '💰💰Preventa de cursos💰💰'
+        },
+        {
+            url: 'https://github.com/devCaress/',
+            txt: '💻Proyectos y su código o repositorio💻'
+        },
+        {
+            url: 'https://www.instagram.com/p/CXzeSvGA5Vx/',
+            txt: 'Concurso para ganarte uno de mis cursos 😎😎😎'
+        },
+        {
+            url: 'https://www.youtube.com/watch?v=c4YYycgWZ8g&t=13s',
+            txt: 'Entrevistando Ingenieros recién egresados'
+        },
+        {
+            url: 'https://talently.tech/ref/CQ9ON4',
+            txt: ' 💹💹💹Consigue trabajo de forma remota 💹💹💹'
         },
         {
             url: 'https://www.youtube.com/c/NogaraDevCode',
             txt: 'Curso Desarrollo Web desde cero Youtube'
         },
+        
         {
             url: 'https://nogaradevcode.com/',
             txt: 'Mi blog de programación'
