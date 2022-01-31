@@ -17,6 +17,10 @@ main{
 
 /* profile */
 
+#profile{
+    position: relative;
+}
+
 #profile h1{
     color: #fff;
     font-size: 2.5rem;
@@ -33,6 +37,32 @@ main{
     display: block;
 }
 
+#profile #refresh{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+#profile #refresh svg{
+    width: 70%;
+    fill: #000;
+    stroke: #000;
+}
+
+#profile #refresh:hover{
+    background-color: #a51b1b;
+    cursor: pointer;
+    fill: #fff;
+    transform: rotate(90deg);
+}
 /* social networks */
 
 #socialNetworks{
@@ -46,10 +76,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 #socialNetworks a img{
     transition-timing-function: ease;
+    width: 100%;
 }
 
 #socialNetworks a img:hover{
